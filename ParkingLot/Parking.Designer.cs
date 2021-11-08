@@ -1,6 +1,6 @@
 ﻿namespace ParkingLot
 {
-    partial class Form1
+    partial class Parking
     {
         /// <summary>
         /// Variable del diseñador necesaria.

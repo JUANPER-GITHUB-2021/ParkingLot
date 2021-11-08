@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ParkingLot
 {
-    public partial class Form1 : Form
+    public partial class Parking : Form
     {
-        public Form1()
+        public Parking()
         {
             InitializeComponent();
         }

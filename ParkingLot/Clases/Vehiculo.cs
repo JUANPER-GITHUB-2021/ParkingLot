@@ -18,7 +18,5 @@ namespace ParkingLot
         public string sexo { get => sexo; set => sexo = value; }
         public bool afiliacion { get => afiliacion; set => afiliacion = value; }
 
-
-
     }
 }

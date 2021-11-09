@@ -142,34 +142,39 @@
             // 
             // TBSexo
             // 
+            this.TBSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBSexo.Location = new System.Drawing.Point(530, 193);
             this.TBSexo.Name = "TBSexo";
-            this.TBSexo.Size = new System.Drawing.Size(139, 20);
+            this.TBSexo.Size = new System.Drawing.Size(139, 22);
             this.TBSexo.TabIndex = 11;
             // 
             // TBIdentificacion
             // 
+            this.TBIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBIdentificacion.Location = new System.Drawing.Point(530, 142);
             this.TBIdentificacion.Name = "TBIdentificacion";
-            this.TBIdentificacion.Size = new System.Drawing.Size(139, 20);
+            this.TBIdentificacion.Size = new System.Drawing.Size(139, 22);
             this.TBIdentificacion.TabIndex = 12;
             // 
             // TBMarca
             // 
+            this.TBMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBMarca.Location = new System.Drawing.Point(120, 256);
             this.TBMarca.Name = "TBMarca";
-            this.TBMarca.Size = new System.Drawing.Size(117, 20);
+            this.TBMarca.Size = new System.Drawing.Size(121, 22);
             this.TBMarca.TabIndex = 13;
             // 
             // TBPlaca
             // 
+            this.TBPlaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBPlaca.Location = new System.Drawing.Point(120, 197);
             this.TBPlaca.Name = "TBPlaca";
-            this.TBPlaca.Size = new System.Drawing.Size(121, 20);
+            this.TBPlaca.Size = new System.Drawing.Size(121, 22);
             this.TBPlaca.TabIndex = 14;
             // 
             // ComboBoxTipo
             // 
+            this.ComboBoxTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxTipo.FormattingEnabled = true;
             this.ComboBoxTipo.Items.AddRange(new object[] {
             "Carro",
@@ -177,19 +182,20 @@
             "MicroBus"});
             this.ComboBoxTipo.Location = new System.Drawing.Point(120, 142);
             this.ComboBoxTipo.Name = "ComboBoxTipo";
-            this.ComboBoxTipo.Size = new System.Drawing.Size(121, 21);
+            this.ComboBoxTipo.Size = new System.Drawing.Size(121, 24);
             this.ComboBoxTipo.TabIndex = 16;
             this.ComboBoxTipo.Text = "Carro";
             // 
             // ComboBoxAfiliacion
             // 
+            this.ComboBoxAfiliacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxAfiliacion.FormattingEnabled = true;
             this.ComboBoxAfiliacion.Items.AddRange(new object[] {
             "No",
             "Sí"});
             this.ComboBoxAfiliacion.Location = new System.Drawing.Point(530, 251);
             this.ComboBoxAfiliacion.Name = "ComboBoxAfiliacion";
-            this.ComboBoxAfiliacion.Size = new System.Drawing.Size(139, 21);
+            this.ComboBoxAfiliacion.Size = new System.Drawing.Size(139, 24);
             this.ComboBoxAfiliacion.TabIndex = 17;
             this.ComboBoxAfiliacion.Text = "No";
             // 

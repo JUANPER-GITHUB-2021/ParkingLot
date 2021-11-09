@@ -44,6 +44,8 @@
             this.ComboBoxTipo = new System.Windows.Forms.ComboBox();
             this.ComboBoxAfiliacion = new System.Windows.Forms.ComboBox();
             this.BtnIngresar = new System.Windows.Forms.Button();
+            this.LblHora = new System.Windows.Forms.Label();
+            this.TxtBHora = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Lbltitulo
@@ -202,7 +204,7 @@
             // BtnIngresar
             // 
             this.BtnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnIngresar.Location = new System.Drawing.Point(273, 337);
+            this.BtnIngresar.Location = new System.Drawing.Point(481, 337);
             this.BtnIngresar.Name = "BtnIngresar";
             this.BtnIngresar.Size = new System.Drawing.Size(152, 46);
             this.BtnIngresar.TabIndex = 19;
@@ -210,11 +212,31 @@
             this.BtnIngresar.UseVisualStyleBackColor = true;
             this.BtnIngresar.Click += new System.EventHandler(this.button2_Click);
             // 
+            // LblHora
+            // 
+            this.LblHora.AutoSize = true;
+            this.LblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblHora.Location = new System.Drawing.Point(60, 354);
+            this.LblHora.Name = "LblHora";
+            this.LblHora.Size = new System.Drawing.Size(123, 16);
+            this.LblHora.TabIndex = 20;
+            this.LblHora.Text = "Hora de ingreso:";
+            // 
+            // TxtBHora
+            // 
+            this.TxtBHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBHora.Location = new System.Drawing.Point(189, 351);
+            this.TxtBHora.Name = "TxtBHora";
+            this.TxtBHora.Size = new System.Drawing.Size(177, 22);
+            this.TxtBHora.TabIndex = 21;
+            // 
             // Ingreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(774, 435);
+            this.ClientSize = new System.Drawing.Size(774, 425);
+            this.Controls.Add(this.TxtBHora);
+            this.Controls.Add(this.LblHora);
             this.Controls.Add(this.BtnIngresar);
             this.Controls.Add(this.ComboBoxAfiliacion);
             this.Controls.Add(this.ComboBoxTipo);
@@ -231,7 +253,8 @@
             this.Controls.Add(this.LblPlaca);
             this.Controls.Add(this.LblTipo);
             this.Controls.Add(this.Lbltitulo);
-            this.MinimumSize = new System.Drawing.Size(790, 380);
+            this.MaximumSize = new System.Drawing.Size(790, 464);
+            this.MinimumSize = new System.Drawing.Size(790, 464);
             this.Name = "Ingreso";
             this.Text = "Ingreso de vehiculos";
             this.ResumeLayout(false);
@@ -257,5 +280,7 @@
         private System.Windows.Forms.ComboBox ComboBoxTipo;
         private System.Windows.Forms.ComboBox ComboBoxAfiliacion;
         private System.Windows.Forms.Button BtnIngresar;
+        private System.Windows.Forms.Label LblHora;
+        private System.Windows.Forms.TextBox TxtBHora;
     }
 }

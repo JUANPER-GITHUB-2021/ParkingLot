@@ -36,12 +36,15 @@ namespace ParkingLot
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Ingreso ing = new Ingreso
+            this.Hide();
+            Ingreso ingreso = new Ingreso
             {
-                Padre = this.Padre
+                MdiParent = this.MdiParent
 
             };
-            this.Padre.Size= new Size ()
+            this.MdiParent.Size = new Size(ingreso.Size.Width + 25, ingreso.Size.Height + 45);
+            ingreso.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -12,10 +12,13 @@ namespace ParkingLot
 {
     public partial class Padre : Form
     {
+        private int childFormNumber = 0;
+
         public Padre()
         {
             InitializeComponent();
         }
+
 
         private void Padre_Load(object sender, EventArgs e)
         {
@@ -23,7 +26,7 @@ namespace ParkingLot
             {
                 MdiParent = this
             };
-            this.Size = new Size(parking.Size.Width + 20, parking.Size.Height + 43);
+            this.Size = new Size(parking.Size.Width + 25, parking.Size.Height + 45);
             parking.Show();
         }
     }

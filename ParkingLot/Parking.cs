@@ -123,10 +123,9 @@ namespace ParkingLot
         private void button1_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Ingreso ingreso = new Ingreso
+            Ingreso ingreso = new Ingreso(parqueaderovehiculos)
             {
                 MdiParent = this.MdiParent
-
             };
             this.MdiParent.Size = new Size(ingreso.Size.Width + 25, ingreso.Size.Height + 45);
             ingreso.Show();
@@ -139,7 +138,6 @@ namespace ParkingLot
             Retiro retiro = new Retiro
             {
                 MdiParent = this.MdiParent
-
             };
             this.MdiParent.Size = new Size(retiro.Size.Width + 25, retiro.Size.Height + 45);
             retiro.Show();

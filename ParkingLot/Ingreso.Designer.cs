@@ -42,10 +42,10 @@
             this.TBMarca = new System.Windows.Forms.TextBox();
             this.TBPlaca = new System.Windows.Forms.TextBox();
             this.ComboBoxTipo = new System.Windows.Forms.ComboBox();
-            this.ComboBoxAfiliacion = new System.Windows.Forms.ComboBox();
             this.BtnIngresar = new System.Windows.Forms.Button();
             this.LblHora = new System.Windows.Forms.Label();
             this.TxtBHora = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Lbltitulo
@@ -188,19 +188,6 @@
             this.ComboBoxTipo.TabIndex = 16;
             this.ComboBoxTipo.Text = "Carro";
             // 
-            // ComboBoxAfiliacion
-            // 
-            this.ComboBoxAfiliacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComboBoxAfiliacion.FormattingEnabled = true;
-            this.ComboBoxAfiliacion.Items.AddRange(new object[] {
-            "No",
-            "Sí"});
-            this.ComboBoxAfiliacion.Location = new System.Drawing.Point(530, 251);
-            this.ComboBoxAfiliacion.Name = "ComboBoxAfiliacion";
-            this.ComboBoxAfiliacion.Size = new System.Drawing.Size(139, 24);
-            this.ComboBoxAfiliacion.TabIndex = 17;
-            this.ComboBoxAfiliacion.Text = "No";
-            // 
             // BtnIngresar
             // 
             this.BtnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,15 +217,25 @@
             this.TxtBHora.Size = new System.Drawing.Size(177, 22);
             this.TxtBHora.TabIndex = 21;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(530, 257);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(37, 17);
+            this.checkBox1.TabIndex = 22;
+            this.checkBox1.Text = "Sí";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Ingreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(774, 425);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.TxtBHora);
             this.Controls.Add(this.LblHora);
             this.Controls.Add(this.BtnIngresar);
-            this.Controls.Add(this.ComboBoxAfiliacion);
             this.Controls.Add(this.ComboBoxTipo);
             this.Controls.Add(this.TBPlaca);
             this.Controls.Add(this.TBMarca);
@@ -278,9 +275,9 @@
         private System.Windows.Forms.TextBox TBMarca;
         private System.Windows.Forms.TextBox TBPlaca;
         private System.Windows.Forms.ComboBox ComboBoxTipo;
-        private System.Windows.Forms.ComboBox ComboBoxAfiliacion;
         private System.Windows.Forms.Button BtnIngresar;
         private System.Windows.Forms.Label LblHora;
         private System.Windows.Forms.TextBox TxtBHora;
+        public System.Windows.Forms.CheckBox checkBox1;
     }
 }

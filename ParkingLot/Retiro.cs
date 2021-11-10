@@ -16,5 +16,20 @@ namespace ParkingLot
         {
             InitializeComponent();
         }
+
+        private void Retiro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbltitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lblidentificacion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

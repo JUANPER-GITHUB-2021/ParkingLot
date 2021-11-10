@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lbltipo1 = new System.Windows.Forms.Label();
+            this.Lblnombre1 = new System.Windows.Forms.Label();
+            this.Lblplaca1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Lbltipo4 = new System.Windows.Forms.Label();
+            this.Lblnombre4 = new System.Windows.Forms.Label();
+            this.Lblplaca4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Lbltipo8 = new System.Windows.Forms.Label();
+            this.Lblnombre8 = new System.Windows.Forms.Label();
+            this.Lblplaca8 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.Lbltipo7 = new System.Windows.Forms.Label();
+            this.Lblnombre7 = new System.Windows.Forms.Label();
+            this.Lblplaca7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.Lbltipo2 = new System.Windows.Forms.Label();
+            this.Lblnombre2 = new System.Windows.Forms.Label();
+            this.Lblplaca2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.Lbltipo6 = new System.Windows.Forms.Label();
+            this.Lblnombre6 = new System.Windows.Forms.Label();
+            this.Lblplaca6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.Lbltipo3 = new System.Windows.Forms.Label();
+            this.Lblnombre3 = new System.Windows.Forms.Label();
+            this.Lblplaca3 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.Lbltipo5 = new System.Windows.Forms.Label();
+            this.Lblnombre5 = new System.Windows.Forms.Label();
+            this.Lblplaca5 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.Lbltipo10 = new System.Windows.Forms.Label();
+            this.Lblnombre10 = new System.Windows.Forms.Label();
+            this.Lblplaca10 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.Lbltipo9 = new System.Windows.Forms.Label();
+            this.Lblnombre9 = new System.Windows.Forms.Label();
+            this.Lblplaca9 = new System.Windows.Forms.Label();
             this.BtnIngresarVehiculo = new System.Windows.Forms.Button();
             this.BtnRetirarVehiculo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -85,383 +85,386 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.Lbltipo1);
+            this.panel1.Controls.Add(this.Lblnombre1);
+            this.panel1.Controls.Add(this.Lblplaca1);
             this.panel1.Location = new System.Drawing.Point(23, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(107, 193);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // Lbltipo1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Lbltipo1.AutoSize = true;
+            this.Lbltipo1.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo1.Name = "Lbltipo1";
+            this.Lbltipo1.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo1.TabIndex = 2;
+            this.Lbltipo1.Text = "Tipo";
             // 
-            // label2
+            // Lblnombre1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.Lblnombre1.AutoSize = true;
+            this.Lblnombre1.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre1.Name = "Lblnombre1";
+            this.Lblnombre1.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre1.TabIndex = 0;
+            this.Lblnombre1.Text = "Nombre";
+            this.Lblnombre1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label3
+            // Lblplaca1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 149);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.Lblplaca1.AutoSize = true;
+            this.Lblplaca1.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca1.Name = "Lblplaca1";
+            this.Lblplaca1.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca1.TabIndex = 1;
+            this.Lblplaca1.Text = "Placa";
+            this.Lblplaca1.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.Lbltipo4);
+            this.panel2.Controls.Add(this.Lblnombre4);
+            this.panel2.Controls.Add(this.Lblplaca4);
             this.panel2.Location = new System.Drawing.Point(439, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(107, 193);
             this.panel2.TabIndex = 3;
             // 
-            // label4
+            // Lbltipo4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 149);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "label4";
+            this.Lbltipo4.AutoSize = true;
+            this.Lbltipo4.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo4.Name = "Lbltipo4";
+            this.Lbltipo4.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo4.TabIndex = 2;
+            this.Lbltipo4.Text = "Tipo";
             // 
-            // label5
+            // Lblnombre4
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 30);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "label5";
+            this.Lblnombre4.AutoSize = true;
+            this.Lblnombre4.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre4.Name = "Lblnombre4";
+            this.Lblnombre4.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre4.TabIndex = 0;
+            this.Lblnombre4.Text = "Nombre";
             // 
-            // label6
+            // Lblplaca4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 89);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "label6";
+            this.Lblplaca4.AutoSize = true;
+            this.Lblplaca4.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca4.Name = "Lblplaca4";
+            this.Lblplaca4.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca4.TabIndex = 1;
+            this.Lblplaca4.Text = "Placa";
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.Lbltipo8);
+            this.panel3.Controls.Add(this.Lblnombre8);
+            this.panel3.Controls.Add(this.Lblplaca8);
             this.panel3.Location = new System.Drawing.Point(299, 219);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(107, 193);
             this.panel3.TabIndex = 3;
             // 
-            // label7
+            // Lbltipo8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(36, 149);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "label7";
+            this.Lbltipo8.AutoSize = true;
+            this.Lbltipo8.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo8.Name = "Lbltipo8";
+            this.Lbltipo8.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo8.TabIndex = 2;
+            this.Lbltipo8.Text = "Tipo";
             // 
-            // label8
+            // Lblnombre8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(36, 30);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "label8";
+            this.Lblnombre8.AutoSize = true;
+            this.Lblnombre8.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre8.Name = "Lblnombre8";
+            this.Lblnombre8.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre8.TabIndex = 0;
+            this.Lblnombre8.Text = "Nombre";
             // 
-            // label9
+            // Lblplaca8
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(36, 89);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "label9";
+            this.Lblplaca8.AutoSize = true;
+            this.Lblplaca8.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca8.Name = "Lblplaca8";
+            this.Lblplaca8.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca8.TabIndex = 1;
+            this.Lblplaca8.Text = "Placa";
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.label11);
-            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.Lbltipo7);
+            this.panel4.Controls.Add(this.Lblnombre7);
+            this.panel4.Controls.Add(this.Lblplaca7);
             this.panel4.Location = new System.Drawing.Point(161, 219);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(107, 193);
             this.panel4.TabIndex = 3;
             // 
-            // label10
+            // Lbltipo7
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(36, 149);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "label10";
+            this.Lbltipo7.AutoSize = true;
+            this.Lbltipo7.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo7.Name = "Lbltipo7";
+            this.Lbltipo7.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo7.TabIndex = 2;
+            this.Lbltipo7.Text = "Tipo";
             // 
-            // label11
+            // Lblnombre7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(36, 30);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "label11";
+            this.Lblnombre7.AutoSize = true;
+            this.Lblnombre7.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre7.Name = "Lblnombre7";
+            this.Lblnombre7.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre7.TabIndex = 0;
+            this.Lblnombre7.Text = "Nombre";
             // 
-            // label12
+            // Lblplaca7
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(36, 89);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "label12";
+            this.Lblplaca7.AutoSize = true;
+            this.Lblplaca7.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca7.Name = "Lblplaca7";
+            this.Lblplaca7.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca7.TabIndex = 1;
+            this.Lblplaca7.Text = "Placa";
             // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label13);
-            this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.Lbltipo2);
+            this.panel5.Controls.Add(this.Lblnombre2);
+            this.panel5.Controls.Add(this.Lblplaca2);
             this.panel5.Location = new System.Drawing.Point(161, 12);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(107, 193);
             this.panel5.TabIndex = 3;
             // 
-            // label13
+            // Lbltipo2
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(36, 149);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "label13";
+            this.Lbltipo2.AutoSize = true;
+            this.Lbltipo2.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo2.Name = "Lbltipo2";
+            this.Lbltipo2.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo2.TabIndex = 2;
+            this.Lbltipo2.Text = "Tipo";
             // 
-            // label14
+            // Lblnombre2
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(36, 30);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "label14";
+            this.Lblnombre2.AutoSize = true;
+            this.Lblnombre2.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre2.Name = "Lblnombre2";
+            this.Lblnombre2.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre2.TabIndex = 0;
+            this.Lblnombre2.Text = "Nombre";
+            this.Lblnombre2.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label15
+            // Lblplaca2
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(36, 89);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 13);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "label15";
+            this.Lblplaca2.AutoSize = true;
+            this.Lblplaca2.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca2.Name = "Lblplaca2";
+            this.Lblplaca2.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca2.TabIndex = 1;
+            this.Lblplaca2.Text = "Placa";
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label16);
-            this.panel6.Controls.Add(this.label17);
-            this.panel6.Controls.Add(this.label18);
+            this.panel6.Controls.Add(this.Lbltipo6);
+            this.panel6.Controls.Add(this.Lblnombre6);
+            this.panel6.Controls.Add(this.Lblplaca6);
             this.panel6.Location = new System.Drawing.Point(23, 219);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(107, 193);
             this.panel6.TabIndex = 3;
             // 
-            // label16
+            // Lbltipo6
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(36, 149);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "label16";
+            this.Lbltipo6.AutoSize = true;
+            this.Lbltipo6.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo6.Name = "Lbltipo6";
+            this.Lbltipo6.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo6.TabIndex = 2;
+            this.Lbltipo6.Text = "Tipo";
             // 
-            // label17
+            // Lblnombre6
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(36, 30);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "label17";
+            this.Lblnombre6.AutoSize = true;
+            this.Lblnombre6.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre6.Name = "Lblnombre6";
+            this.Lblnombre6.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre6.TabIndex = 0;
+            this.Lblnombre6.Text = "Nombre";
             // 
-            // label18
+            // Lblplaca6
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(36, 89);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "label18";
+            this.Lblplaca6.AutoSize = true;
+            this.Lblplaca6.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca6.Name = "Lblplaca6";
+            this.Lblplaca6.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca6.TabIndex = 1;
+            this.Lblplaca6.Text = "Placa";
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label19);
-            this.panel7.Controls.Add(this.label20);
-            this.panel7.Controls.Add(this.label21);
+            this.panel7.Controls.Add(this.Lbltipo3);
+            this.panel7.Controls.Add(this.Lblnombre3);
+            this.panel7.Controls.Add(this.Lblplaca3);
             this.panel7.Location = new System.Drawing.Point(299, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(107, 193);
             this.panel7.TabIndex = 3;
             // 
-            // label19
+            // Lbltipo3
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(36, 149);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 13);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "label19";
+            this.Lbltipo3.AutoSize = true;
+            this.Lbltipo3.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo3.Name = "Lbltipo3";
+            this.Lbltipo3.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo3.TabIndex = 2;
+            this.Lbltipo3.Text = "Tipo";
             // 
-            // label20
+            // Lblnombre3
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(36, 30);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 13);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "label20";
+            this.Lblnombre3.AutoSize = true;
+            this.Lblnombre3.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre3.Name = "Lblnombre3";
+            this.Lblnombre3.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre3.TabIndex = 0;
+            this.Lblnombre3.Text = "Nombre";
             // 
-            // label21
+            // Lblplaca3
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(36, 89);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 13);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "label21";
+            this.Lblplaca3.AutoSize = true;
+            this.Lblplaca3.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca3.Name = "Lblplaca3";
+            this.Lblplaca3.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca3.TabIndex = 1;
+            this.Lblplaca3.Text = "Placa";
             // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.label22);
-            this.panel8.Controls.Add(this.label23);
-            this.panel8.Controls.Add(this.label24);
+            this.panel8.Controls.Add(this.Lbltipo5);
+            this.panel8.Controls.Add(this.Lblnombre5);
+            this.panel8.Controls.Add(this.Lblplaca5);
             this.panel8.Location = new System.Drawing.Point(576, 12);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(107, 193);
             this.panel8.TabIndex = 4;
             // 
-            // label22
+            // Lbltipo5
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(36, 149);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 13);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "label22";
+            this.Lbltipo5.AutoSize = true;
+            this.Lbltipo5.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo5.Name = "Lbltipo5";
+            this.Lbltipo5.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo5.TabIndex = 2;
+            this.Lbltipo5.Text = "Tipo";
             // 
-            // label23
+            // Lblnombre5
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(36, 30);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(41, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "label23";
+            this.Lblnombre5.AutoSize = true;
+            this.Lblnombre5.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre5.Name = "Lblnombre5";
+            this.Lblnombre5.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre5.TabIndex = 0;
+            this.Lblnombre5.Text = "Nombre";
+            this.Lblnombre5.Click += new System.EventHandler(this.label23_Click);
             // 
-            // label24
+            // Lblplaca5
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(36, 89);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(41, 13);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "label24";
+            this.Lblplaca5.AutoSize = true;
+            this.Lblplaca5.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca5.Name = "Lblplaca5";
+            this.Lblplaca5.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca5.TabIndex = 1;
+            this.Lblplaca5.Text = "Placa";
             // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.label25);
-            this.panel9.Controls.Add(this.label26);
-            this.panel9.Controls.Add(this.label27);
+            this.panel9.Controls.Add(this.Lbltipo10);
+            this.panel9.Controls.Add(this.Lblnombre10);
+            this.panel9.Controls.Add(this.Lblplaca10);
             this.panel9.Location = new System.Drawing.Point(576, 219);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(107, 193);
             this.panel9.TabIndex = 4;
             // 
-            // label25
+            // Lbltipo10
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(36, 149);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(41, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "label25";
+            this.Lbltipo10.AutoSize = true;
+            this.Lbltipo10.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo10.Name = "Lbltipo10";
+            this.Lbltipo10.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo10.TabIndex = 2;
+            this.Lbltipo10.Text = "Tipo";
             // 
-            // label26
+            // Lblnombre10
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(36, 30);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(41, 13);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "label26";
+            this.Lblnombre10.AutoSize = true;
+            this.Lblnombre10.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre10.Name = "Lblnombre10";
+            this.Lblnombre10.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre10.TabIndex = 0;
+            this.Lblnombre10.Text = "Nombre";
             // 
-            // label27
+            // Lblplaca10
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(36, 89);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(41, 13);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "label27";
+            this.Lblplaca10.AutoSize = true;
+            this.Lblplaca10.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca10.Name = "Lblplaca10";
+            this.Lblplaca10.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca10.TabIndex = 1;
+            this.Lblplaca10.Text = "Placa";
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.label28);
-            this.panel10.Controls.Add(this.label29);
-            this.panel10.Controls.Add(this.label30);
+            this.panel10.Controls.Add(this.Lbltipo9);
+            this.panel10.Controls.Add(this.Lblnombre9);
+            this.panel10.Controls.Add(this.Lblplaca9);
             this.panel10.Location = new System.Drawing.Point(439, 219);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(107, 193);
             this.panel10.TabIndex = 4;
             // 
-            // label28
+            // Lbltipo9
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(36, 149);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(41, 13);
-            this.label28.TabIndex = 2;
-            this.label28.Text = "label28";
+            this.Lbltipo9.AutoSize = true;
+            this.Lbltipo9.Location = new System.Drawing.Point(36, 149);
+            this.Lbltipo9.Name = "Lbltipo9";
+            this.Lbltipo9.Size = new System.Drawing.Size(28, 13);
+            this.Lbltipo9.TabIndex = 2;
+            this.Lbltipo9.Text = "Tipo";
             // 
-            // label29
+            // Lblnombre9
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(36, 30);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(41, 13);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "label29";
+            this.Lblnombre9.AutoSize = true;
+            this.Lblnombre9.Location = new System.Drawing.Point(33, 30);
+            this.Lblnombre9.Name = "Lblnombre9";
+            this.Lblnombre9.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre9.TabIndex = 0;
+            this.Lblnombre9.Text = "Nombre";
             // 
-            // label30
+            // Lblplaca9
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(36, 89);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(41, 13);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "label30";
+            this.Lblplaca9.AutoSize = true;
+            this.Lblplaca9.Location = new System.Drawing.Point(36, 89);
+            this.Lblplaca9.Name = "Lblplaca9";
+            this.Lblplaca9.Size = new System.Drawing.Size(34, 13);
+            this.Lblplaca9.TabIndex = 1;
+            this.Lblplaca9.Text = "Placa";
             // 
             // BtnIngresarVehiculo
             // 
@@ -532,45 +535,45 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Lbltipo1;
+        private System.Windows.Forms.Label Lblnombre1;
+        private System.Windows.Forms.Label Lblplaca1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Lbltipo4;
+        private System.Windows.Forms.Label Lblnombre4;
+        private System.Windows.Forms.Label Lblplaca4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Lbltipo8;
+        private System.Windows.Forms.Label Lblnombre8;
+        private System.Windows.Forms.Label Lblplaca8;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Lbltipo7;
+        private System.Windows.Forms.Label Lblnombre7;
+        private System.Windows.Forms.Label Lblplaca7;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label Lbltipo2;
+        private System.Windows.Forms.Label Lblnombre2;
+        private System.Windows.Forms.Label Lblplaca2;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label Lbltipo6;
+        private System.Windows.Forms.Label Lblnombre6;
+        private System.Windows.Forms.Label Lblplaca6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label Lbltipo3;
+        private System.Windows.Forms.Label Lblnombre3;
+        private System.Windows.Forms.Label Lblplaca3;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label Lbltipo5;
+        private System.Windows.Forms.Label Lblnombre5;
+        private System.Windows.Forms.Label Lblplaca5;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label Lbltipo10;
+        private System.Windows.Forms.Label Lblnombre10;
+        private System.Windows.Forms.Label Lblplaca10;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label Lbltipo9;
+        private System.Windows.Forms.Label Lblnombre9;
+        private System.Windows.Forms.Label Lblplaca9;
         private System.Windows.Forms.Button BtnIngresarVehiculo;
         private System.Windows.Forms.Button BtnRetirarVehiculo;
     }

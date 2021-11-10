@@ -19,10 +19,11 @@ namespace ParkingLot
             InitializeComponent();
         }
 
+        public Dictionary<int, Vehiculo> parqueaderovehiculos = new Dictionary<int, Vehiculo>();
 
         private void Padre_Load(object sender, EventArgs e)
         {
-            Parking parking = new Parking
+            Parking parking = new Parking(parqueaderovehiculos)
             {
                 MdiParent = this
             };

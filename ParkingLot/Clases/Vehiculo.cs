@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace ParkingLot
 {
-    class Vehiculo
+    public class Vehiculo
     {
         //Variables para Vehiculo//
-        public string tipo { get => tipo; set => tipo = value; }
-        public string placa { get => placa; set => placa = value; }
-        public string marca { get => marca; set => marca = value; }
+        public string Tipo { get => Tipo; set => Tipo = value; }
+        public string Placa { get => Placa; set => Placa = value; }
+        public string Marca { get => Marca; set => Marca = value; }
 
         //Variables para Conductor//
-        public string identificacion { get => identificacion; set => identificacion = value; }
-        public string sexo { get => sexo; set => sexo = value; }
-        public bool afiliacion { get => afiliacion; set => afiliacion = value; }
+        public string Identificacion { get => Identificacion; set => Identificacion = value; }
+        public string Sexo { get => Sexo; set => Sexo = value; }
+        public bool Afiliacion { get => Afiliacion; set => Afiliacion = value; }
+        public DateTime Hora { get => Hora; set => Hora = value; }
 
     }
 }
